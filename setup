@@ -1,12 +1,13 @@
 ------------------------------------------first we need to have a node js sample app to deploy.....----------------------------------------------------------------------
 
-first we need to create a pipeline in aws by codepipeline by which we integrate our git repo with aws elastic beanstalk resource to deploy 
-code automatically every time changes done in  it.
+1.first we need to create a pipeline in aws by codepipeline by which we integrate our git repo with aws elastic beanstalk resource to deploy 
+code automatically every time changes done in  it. 
 
-in the last stage of pipeline we need to define our elastic beanstock  (project name) and (env name) 
+2.in this process we need to authenticate github with elasticbeanstalk in successive process. 
 
+3.in the last stage of pipeline we need to define our elastic beanstock  (project name) and (env name). 
 
-so we need to create first our elastic beanstalk project configuration.and copy project name and env from there and paste it to pipeline then run pipeline.
+4.so we need to create first our elastic beanstalk project configuration.and copy project name and env from there and paste it to pipeline then run pipeline.
 
+5.pipeline will be created and setup code in the elasticbean environment and it will be checked by ip of instance deployed or by meanse or elasticbean url.............
 
-pipeline will be created and setup code in the elasticbean environment and it will be checked by ip of instance deployed or by meanse or elasticbean url.............
